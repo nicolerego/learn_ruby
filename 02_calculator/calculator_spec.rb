@@ -55,9 +55,11 @@ end
 describe "#multiply" do
 
   it "multiplies two numbers" do
+     expect(multiply(1,2)).to eq(2)
   end
 
   it "multiplies several numbers" do
+     expect(multiply(1,3,2)).to eq(6)
   end
 
 end
